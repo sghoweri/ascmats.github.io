@@ -3,10 +3,9 @@ title: Home
 layout: home
 nav_order: 1
 ---
+# Welcome to the documentation for TrampleTek Blue (Home Assistant version)!
 
 <img src="images/mat_usage_image.png" width="600">
-
-#Welcome to the documentation for TrampleTek Blue (Home Assistant version)!
 
 This documentation will help you through the hardware setup for through Home Assistant and through some troubleshooting if things don't go quite as smoothly as expected.
 
