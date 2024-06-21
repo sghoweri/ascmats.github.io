@@ -12,4 +12,4 @@ This documentation will help you through the hardware setup for through Home Ass
 
 You can alway contact me at Raymond@asc.com if you have issues, questions, or suggestions for the documentation.
 
-(add link to requirements?)
+Let's get started by checking to make sure you have the [Requirements](https://ascmats.github.io/requirements.html) ready to set up TrampleTek Blue (Home Assistant version).
