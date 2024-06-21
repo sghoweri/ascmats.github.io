@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-<img src="images/mat_usage_images.png" width="600">
+<img src="images/mat_usage_image.png" width="600">
 
 #Welcome to the documentation for TrampleTek Blue (Home Assistant version)!
 
