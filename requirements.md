@@ -7,7 +7,7 @@ nav_order: 2
 # Requirements
 
 ## Installing and running Home Assistant
-<img src="images/home-assistant-wordmark-with-margins-color-on-dark.png" width="600">
+<img src="images/home-assistant-wordmark-with-margins-color-on-light.png" width="600">
 
 For TrampleTek Blue to integrate into [Home Assistant](https://www.home-assistant.io/) you will need a device that runs Home Assistant.
 
