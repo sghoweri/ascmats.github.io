@@ -4,7 +4,7 @@ title: Install TrampleTek mat
 nav_order: 4
 ---
 
-# Install TrampleTek mat
+# Install TrampleTek mat (~8 min, compile and upload speed make it slower)
 
 ## If you're a Tech Wizard, these instructions are for default Home Assistant + ESPHome add-on instructions
 If you are not using the ESPHome without the Home Assistant add-on (e.g. you're running Docker on a Linux machine), some of these instructions will need to altered for you. If you a tech wizard using Home Assistant in an advanced setup like Docker/Linux you may need to use the command line instructions for ESPHome [here](https://esphome.io/guides/getting_started_command_line.html).
@@ -12,22 +12,8 @@ If you are not using the ESPHome without the Home Assistant add-on (e.g. you're 
 ## These are step-by-step instructions
 
 - Open ESPHome in the Settings -> Add-ons section:
-
-
-
-## Installing and running Home Assistant
-<img src="images/home-assistant-wordmark-with-margins-color-on-light.png" width="600">
-
-For TrampleTek Blue to integrate into [Home Assistant](https://www.home-assistant.io/) you will need a device that runs Home Assistant.
-
-The most common ways to setup a device are using a Raspberry Pi, an old PC, or using a tool called Docker. [Crosstalk Solutions] (https://youtu.be/Y38qRYYAwAI?si=7VIHOpIk-dSyXmOQ) has a great video explaining all three of these options.
-
-## Installing ESPHome on Home Assistant
-
-<img src="images/ESPHomelogo-text-on-light.svg" width="600">
-
-Once you get Home Assistant running you will need to add the [ESPHome](https://esphome.io/) add-on into Home Assistant. The ESPHome is pretty simple, search for ESPHome add-on in the Home Assistant -> settings -> Add-ons -> Add-on Store. The offical ESPHome startup guide is pretty good to, find it [here](https://esphome.io/guides/getting_started_hassio).
+<img src="images/select_addons.png" width="600">
 
 ## Next Steps
 
-Now with Home Assistant and ESPHome installed and ready, we can start loading up the firmware into the TrampleTek Blue mat.
+The firmware installed we can move onto to looking at what the mat can do! (link to next section).
