@@ -1,5 +1,5 @@
 ---
-title: Welcome to the TrampleTek Blue Docs
+title: Home
 layout: Welcome to the TrampleTek Blue Docs
 nav_order: 1
 ---
