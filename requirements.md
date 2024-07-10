@@ -17,7 +17,7 @@ The most common ways to setup a device are using a Raspberry Pi, an old PC, or u
 
 <img src="images/ESPHomelogo-text-on-light.svg" width="600">
 
-Once you get Home Assistant running you will need to add the [ESPHome](https://esphome.io/) add-on into Home Assistant. The ESPHome is pretty simple, search for ESPHome add-on in the Home Assistant -> settings -> Add-ons -> Add-on Store. The offical ESPHome startup guide is pretty good to, find it [here](https://esphome.io/guides/getting_started_hassio).
+Once you get Home Assistant running you will need to add the [ESPHome](https://esphome.io/) add-on into Home Assistant. The ESPHome install is pretty simple, search for ESPHome add-on in the Home Assistant -> settings -> Add-ons -> Add-on Store. The offical ESPHome startup guide is pretty good to, find it [here](https://esphome.io/guides/getting_started_hassio).
 
 ## Next Steps
 
