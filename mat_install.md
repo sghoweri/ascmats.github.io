@@ -66,8 +66,8 @@ Side note: I think the simplest option is actually “Plug into the computer run
 <img src="images/ESPHome_web_connect_bin_browse.png" width="600"> 
 
 -	Click Install. 
-<img src="images/ESPHome_web_connect_bin_install.png" width="600"> 
-WARNING: THIS STEP MIGHT FAIL! That’s okay, it just means the computer can’t (or made a mistake and didn’t) put the mat into Boot Mode. Sometimes you can disconnect and reconnect the mat (you will need to redo the previous step on connecting to the mat with ESPHome web) and then the install button will work. If you continue to get an error about “timing out” you will to manually put the mat into Boot Mode. [GO HERE TO PUT MAT INTO BOOT MODE](https://ascmats.github.io/bootmode.html)
+<img src="images/ESPHome_web_connect_bin_install.png" width="600">
+WARNING: THIS STEP MIGHT FAIL! That’s okay, it just means the computer can’t (or made a mistake and didn’t) put the mat into Boot Mode. Sometimes you can disconnect and reconnect the mat (you will need to redo the previous step on connecting to the mat with ESPHome web) and then the install button will work. If you continue to get an error about “timing out” you will to manually put the mat into Boot Mode. [Go here to put mat into Boot Mode](https://ascmats.github.io/bootmode.html).
 
 •	If it the install step worked, you’ll start seeing loading:
 <img src="images/ESPHome_web_connect_installing.png" width="600"> 
