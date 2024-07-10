@@ -13,13 +13,14 @@ nav_order: 7
 <img src="images/Open_cover_start.png" width="600">  
 
 -	There is a long plastic clip on the front and back of the protective box keeping it snapped to the circuit board. It’s tight but pry up the front of the protective box to pop it off.
+
 <img src="images/Open_cover_pry_open.png" width="600"> 
 
 -	With the protective cover off plug the cable back in. You then must hold the “Boot” button (it is a small sideways button on the right) and while the “Boot” button is held down you must press and release the “Reset” button (the small sideways button on the left).
 
 <img src="images/Open_cover_reset_boot.png" width="600">  
 
--	You will need to go through the installation instruction steps and get back to this screen, and install!
+-	You will need to go through the installation instruction steps and get back to this screen to try and install.
 
 <img src="images/ESPHome_web_connect_bin_install.png" width="600"> 
 
