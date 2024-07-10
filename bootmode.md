@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Boot mode" instructions
+title: Boot Mode Instructions
 nav_order: 5
 ---
 
