@@ -29,7 +29,7 @@ nav_order: 5
 <img src="images/ESPHome_web_connect_install_success.png" width="600">
 
 ## Put the protective cover back onto the circuit board before moving to the next steps.
-<img src="" width="600"> 
+<img src="images/Open_cover_align_hole.png" width="600"> 
 Unplug the USB-C cable and clip the protective cover back onto the circuit board. Make sure the USB-C connection hole in the protective cover is aligned with the cutout in the waterproofing plastic sheet before squeezing the protective to snap it back into place. Plug the USB-C cable back in and continue to the next steps.
 
 ## Next Steps
