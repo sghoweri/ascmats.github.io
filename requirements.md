@@ -11,7 +11,7 @@ nav_order: 2
 
 For TrampleTek Blue to integrate into [Home Assistant](https://www.home-assistant.io/) you will need a device that runs Home Assistant.
 
-The most common ways to setup a device are using a Raspberry Pi, an old PC, or using a tool called Docker. [Crosstalk Solutions] (https://youtu.be/Y38qRYYAwAI?si=7VIHOpIk-dSyXmOQ) has a great video explaining all three of these options.
+The most common ways to setup a device are using a Raspberry Pi, an old PC, or using a tool called Docker. [Crosstalk Solutions](https://youtu.be/Y38qRYYAwAI?si=7VIHOpIk-dSyXmOQ) has a great video explaining all three of these options.
 
 ## Installing ESPHome on Home Assistant
 
