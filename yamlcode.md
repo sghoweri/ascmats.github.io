@@ -21,11 +21,11 @@ nav_order: 5
 <img src="images/ESPHome_mat_yaml.png" width="600"> 
 
 ## VERY IMPORTANT, MAT MAY NOT WORK WITHOUT DOING THIS STEP CORRECTLY
-- First we need to add this line in the Wi-Fi section: “output_power: 8.5dB” (details about why [here](https://community.home-assistant.io/t/unable-to-connect-to-wifi-auth-expired-and-association-expired/678570/2). We have to do this because there is a possible issue with the board's Wi-Fi and this helps to fix that issue. Click save.
-
+- First we need to add this line in the Wi-Fi section: “output_power: 8.5dB” (details about why [here](https://community.home-assistant.io/t/unable-to-connect-to-wifi-auth-expired-and-association-expired/678570/2)). We have to do this because there is a possible issue with the board's Wi-Fi and this helps to fix that issue. Click save after adding the “output_power: 8.5dB” line.
+ 
 <img src="images/ESPHome_mat_yaml_wifi_power.png" width="600"> 
 
-- Next you need to put in your Wi-Fi credentials. You can either put your details directly into this file (you must have double quotations around the SSID and the password) or use the secrets.yaml file (optional steps below). If you put in your details directly, click save.
+- Next you need to put in your Wi-Fi credentials. You can either put your details directly into this file (you must have double quotations around the SSID and the password) or use the secrets.yaml file (optional steps below).
 
 <img src="images/ESPHome_mat_yaml_wifi_secrets.png" width="600"> 
 
@@ -37,7 +37,7 @@ nav_order: 5
 
 <img src="images/ESPHome_secrets_yaml.png" width="600"> 
 
--	Copy the code from main YAML file [here](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTek_ESPHome.yaml), scroll down to the bottom of your YAML file and paste in the code. 
+-	Copy the code from main TrampleTek Blue (Home Assistant version) file [here](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTek_ESPHome.yaml), scroll down to the bottom of your YAML file and paste in the code. 
 
 <img src="images/ESPHome_mat_yaml_paste_below.png" width="600"> 
 
