@@ -6,7 +6,7 @@ nav_order: 3
 
 # CRITICAL FIX
 
-## Over The Air (OTA) updates and WiFi connectivity will not work well unless this line is added to YAML code:
+## Over The Air (OTA) updates and Wi-Fi connectivity will not work well unless this line is added to YAML code:
 
 <img src="images/critical_wifi.png" width="600">
 
