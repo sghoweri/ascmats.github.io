@@ -1,7 +1,7 @@
 ---
 layout: default
 title: YAML Code Installation
-nav_order: 6
+nav_order: 5
 ---
 
 # Instructions for installing the YAML code onto the TrampleTek mat
