@@ -24,5 +24,9 @@ nav_order: 6
 
 (This image may not represent the current UI, as it's still changing. Noted 7/24)
 
+## Next Steps
+Let's move on to [understanding the UI elements of the TrampleTek Blue (Home Assistant version)](https://ascmats.github.io/usingHAui.html).
+
+
 
 
