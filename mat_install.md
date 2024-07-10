@@ -4,7 +4,7 @@ title: Loading ESPHome on the TrampleTek mat
 nav_order: 4
 ---
 
-# Loading ESPHome on the TrampleTek mat (~8 min, compile and upload speed can make it slower)
+# Loading ESPHome on the TrampleTek mat
 
 ## If you're a Tech Wizard, these instructions are for default Home Assistant + ESPHome add-on instructions
 If you are not using the ESPHome without the Home Assistant add-on (e.g. you're running Docker on a Linux machine), some of these instructions will need to altered for you. If you a tech wizard using Home Assistant in an advanced setup like Docker/Linux you may need to use the command line instructions for ESPHome [here](https://esphome.io/guides/getting_started_command_line.html).
