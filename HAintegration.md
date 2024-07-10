@@ -20,7 +20,8 @@ nav_order: 6
 
 - Go back to your dashboard and you should see some sensor details. If it looks odd, try refreshing the dashboard a few times.
 
-<img src="images/HA_services_mat_UI.png" width="600"> 
+<img src="images/HA_services_mat_UI.png" width="600">
+
 (This image may not represent the current UI, as it's still changing. Noted 7/24)
 
 
