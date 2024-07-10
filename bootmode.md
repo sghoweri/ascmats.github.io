@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Boot Mode Instructions
-nav_order: 5
+nav_order: 7
 ---
 
 # Instructions for putting the mat into Boot Mode
@@ -25,7 +25,7 @@ nav_order: 5
 
 -	If this step fails try doing the “Boot and reset” sequence again, as the circuit board may not have made it to Boot Mode. The buttons are a little hard to press, you should feel a slight click when you press them down. 
 
--	If it the install step worked, you’ll start seeing loading:
+-	If the install starts working, you’ll start seeing loading:
 
 <img src="images/ESPHome_web_connect_installing.png" width="600"> 
 
