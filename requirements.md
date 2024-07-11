@@ -21,4 +21,4 @@ Once you get Home Assistant running you will need to add the [ESPHome](https://e
 
 ## Next Steps
 
-Now with Home Assistant and ESPHome installed and ready, we can quickly understand a [critical fix](https://ascmats.github.io/critical_wifi.html) and then get into [loading ESPHome on to the TrampleTek Blue mat](https://ascmats.github.io/mat_install.html).
+Now with Home Assistant and ESPHome setup and ready, we can quickly understand a [critical fix](https://ascmats.github.io/critical_wifi.html) and then get into [loading ESPHome on to the TrampleTek Blue mat](https://ascmats.github.io/mat_install.html).
