@@ -37,7 +37,13 @@ nav_order: 5
 
 <img src="images/ESPHome_secrets_yaml.png" width="600"> 
 
--	Copy the code from main TrampleTek Blue (Home Assistant version) file [here](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTek_ESPHome.yaml), scroll down to the bottom of your YAML file and paste in the code. 
+- We need to alter one more place in the code, in the **"<ins>esphome:" section</ins>**.
+
+ <img src="images/ESPHome_mat_yaml_onboot.png" width="600"> 
+ 
+I've found ESPHome's internal restoring of variables to be flaky, this will help your mat keep your calibration settings after an unexpected on/off event. You can copy/paste these lines from the main TrampleTek Blue (Home Assistant version) file [here](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTek_ESPHome.yaml), make sure to the match the indent amount for each line!
+
+-	Starting at the line **"<ins>globals:</ins>"**, copy the code from main TrampleTek Blue (Home Assistant version) file [here](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTek_ESPHome.yaml), scroll down to the bottom of your YAML file and paste in the code. 
 
 <img src="images/ESPHome_mat_yaml_paste_below.png" width="600"> 
 
