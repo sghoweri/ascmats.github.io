@@ -10,9 +10,9 @@ nav_order: 7
 
 <img src="images/HA_UI_overview.png" width="600">
 
-The UI is seperated into four visible components "Calibration", "Dropdown Sensitivity", "Sensitivity", and "Mat Sensor" and one secret component (not pictured here) for power users "Pressure voltage". 
+The UI is seperated into four visible components **"Calibration"**, **"Dropdown Sensitivity"**, **"Sensitivity"**, and **"Mat Sensor"** and one secret component (not in this image) for power users **"Pressure voltage"**. 
 
-Your UI elements may show up in a different order, and I will explain them from simpliest to most complex.
+Your UI elements may show up in a different order, and I will explain them from simpliest to most complex. Note: I will use "pressure" and "weight" interchangeably in this section, they are technically different but for ease of examples I use them interchangeably.
 
 ### Mat Sensor monitor
 
@@ -46,19 +46,48 @@ This component sets the sensitivity of the mat from a drop down menu. The five o
 
 - This means you've selected a custom sensitivity from the "Sensitivity" slider (which is the next UI element!).
 
+### Sensitivity
 
+<img src="images/HA_UI_sensitivity.png" width="600">
 
+You can manually change the sensitivity of the mat with this slider. Increase this value to have the mat trigger on/off only on heavier weights, or decrease this value to have the mat trigger on/off on a lighter weight.
 
+### Calibration
 
+<img src="images/HA_UI_calibration.png" width="600">
 
+If you're not sure what the Sensitivity should be for your use case use, use the Calibration button!
 
-## (TO DO) Each part of the UI elements will explained with details, examples, and ways to use each element. Is the UI is still being finalized I have not written this section fully yet.
+**<ins>How to use the Calibration button:</ins>**
+1) Load your mat with whatever you want the mat's baseline to be (e.g. if you're using it as a bed sensor put it under the matress where you sleep, if you want it sense someone on the coach put it under the coach cushion, etc.).
+2) Wait 1-2 minutes for the mat signal to fully settle
+3) Switch the Calibration button to "On"
+4) Put whatever the object you want to sense on the mat (e.g. lay down on your bed for the matress sensor, sit on the cushion that you want to sense a person on, etc.)
+5) The Sensitivity slider will automatically update to roughly where you should set the Sensitivity for your use case
+6) Switch the Calibration button to "Off"
 
+Calibration is not perfect! You may want to move the Sensitivity slider around a little bit to fine tune when the mat triggers on/off.
 
-<img src="images/mat_usage_image.png" width="600">
+## Advanced UI and details
+### Pressure voltage
 
-This documentation will help you through the hardware setup for through Home Assistant and through some troubleshooting if things don't go quite as smoothly as expected.
+<img src="images/HA_UI_Voltage.png" width="600">
 
-You can alway contact me at Raymond@asc.com if you have issues, questions, or suggestions for the documentation.
+To get to the Pressure voltage UI you have to un-comment this section in the YAML code and install the change onto the mat.
 
-Let's get started by checking to make sure you have the [Requirements](https://ascmats.github.io/requirements.html) ready to set up TrampleTek Blue (Home Assistant version).
+<img src="images/HA_UI_UncommentMe.png" width="600">
+
+With this UI entity you can watch the voltage of the mat change as weight is put on or taken off the mat. 
+
+<img src="images/HA_UI_VoltagePlot.png" width="600">
+
+This is an example of the voltage plot as I stand on and off the mat with 1 and then 2 feet. This UI element is a fun way to explore the mat and trigger automations directly from voltage changes.
+
+### Extra: Technical notes
+- The Sensitivity value is the voltage change required to trigger "on" for the mat. The "off" trigger is a percentage of this value. This is because the mat can recover slowly from heavy or large objects and requiring less of a voltage change when weight comes off helps increase the responsiveness of the mat. You can get rid of this by removing the variable "scaleThreshold" in the YAML code. Look for this line **matUpThreshold = matDataAvg + id(step_event_threshold) * scaleThreshold; // Recovery can be slower, reduces the threshold requirement**
+
+- The voltage change for the same weight can be different depending on how much weight is already on the mat (e.g. the first 10lbs on the mat might change the voltage by 0.5 V but another 10lbs may only change the mat voltage by an additional 0.1 V). The mats are tuned to be very sensitive to low weights, <20 lbs), but struggle to tell the different between 100 lbs and 1000 lbs. 
+  
+- **<ins>Every mat's voltage range and sensitivity is different</ins>**. Textiles and soft stretchy materials do not always line up the exact same way for each mat build, so there is an expected, and sometimes sizable, varability between mats. If you have multiple mats, do not expect the same Sensivitiy level to work for all your mats for the same use case.
+
+If you have more technical questions you can alway contact me at Raymond@asc.com
