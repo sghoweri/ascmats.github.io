@@ -20,9 +20,9 @@ nav_order: 6
 
 - Go back to your dashboard and you should see some sensor details. If it looks odd, try refreshing the dashboard a few times.
 
-<img src="images/HA_services_mat_UI.png" width="600">
+<img src="images/HA_UI_overview.png" width="600">
 
-(This image may not represent the current UI, as it's still changing. Noted 7/24)
+The default UI elements should look something like this.
 
 ## Next Steps
 Let's move on to [understanding the UI elements of the TrampleTek Blue (Home Assistant version)](https://ascmats.github.io/usingHAui.html).
