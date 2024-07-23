@@ -59,12 +59,12 @@ You can manually change the sensitivity of the mat with this slider. Increase th
 If you're not sure what the Sensitivity should be for your use case use, use the Calibration button!
 
 **<ins>How to use the Calibration button:</ins>**
-1) Load your mat with whatever you want the mat's baseline to be (e.g. if you're using it as a bed sensor put it under the matress where you sleep, if you want it sense someone on the coach put it under the coach cushion, etc.).
-2) Wait 1-2 minutes for the mat signal to fully settle
-3) Switch the Calibration button to "On"
-4) Put whatever the object you want to sense on the mat (e.g. lay down on your bed for the matress sensor, sit on the cushion that you want to sense a person on, etc.)
-5) The Sensitivity slider will automatically update to roughly where you should set the Sensitivity for your use case
-6) Switch the Calibration button to "Off"
+- Load your mat with whatever you want the mat's baseline to be (e.g. if you're using it as a bed sensor put it under the matress where you sleep, if you want it sense someone on the coach put it under the coach cushion, etc.).
+- Wait 1-2 minutes for the mat signal to fully settle
+- Switch the Calibration button to "On"
+- Put whatever the object you want to sense on the mat (e.g. lay down on your bed for the matress sensor, sit on the cushion that you want to sense a person on, etc.)
+- The Sensitivity slider will automatically update to roughly where you should set the Sensitivity for your use case
+- Switch the Calibration button to "Off"
 
 Calibration is not perfect! You may want to move the Sensitivity slider around a little bit to fine tune when the mat triggers on/off.
 
