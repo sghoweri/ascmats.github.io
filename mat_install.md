@@ -101,3 +101,16 @@ WARNING: THIS STEP MIGHT FAIL! That’s okay, it just means the computer can’t
 
 ## Next Steps
 Let's move on to setting up the YAML code on the mat [Yaml Code Installation](https://ascmats.github.io/yamlcode.html).
+
+## Ignore this section, active testing happening
+
+<div class="container">
+  <esp-web-install-button class="hidden"></esp-web-install-button>
+</div>
+
+<script
+  type="module"
+  src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"
+></script>
+
+
