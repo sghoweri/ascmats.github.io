@@ -105,7 +105,7 @@ Let's move on to setting up the YAML code on the mat [Yaml Code Installation](ht
 ## Ignore this section, active testing happening
 
 <div class="container">
-  <esp-web-install-button manifest="https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTekBlue.json"></esp-web-install-button>
+  <esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json"></esp-web-install-button>
 </div>
 
 <script
