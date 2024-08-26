@@ -109,7 +109,7 @@ Let's move on to setting up the YAML code on the mat [Yaml Code Installation](ht
   src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"
 ></script>
 
-<esp-web-install-button manifest="https://firmware.esphome.io/esp-web-tools/manifest.json" install-supported="">
+<esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json" install-supported="">
         <i slot="unsupported">
           The option is not available because your browser does not support Web
           Serial. Open this page in Google Chrome or Microsoft Edge instead<span class="not-supported-i hidden">
