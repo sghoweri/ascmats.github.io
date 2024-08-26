@@ -104,24 +104,14 @@ Let's move on to setting up the YAML code on the mat [Yaml Code Installation](ht
 
 ## Ignore this section, active testing happening
 
-<script module="">
-      import(
-        window.location.hostname === "localhost"
-          ? "/dist/web/install-button.js"
-          : "https://unpkg.com/esp-web-tools/dist/web/install-button.js?module"
-      );
-</script>
-
 <div class="container">
-  <esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json" install-supported="">
-        <i slot="unsupported">
-          Install with this button is not available because your browser does not support Web
-          Serial. Open this page in Google Chrome or Microsoft Edge instead<span class="not-supported-i hidden">
-            (but not on your iOS device)</span>.
-        </i>
-      </esp-web-install-button>
+  <esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json"></esp-web-install-button>
 </div>
 
+<script
+  type="module"
+  src="https://unpkg.com/esp-web-tools@8.0.6/dist/web/install-button.js?module"
+></script>
 
 
 
