@@ -110,7 +110,7 @@ Let's move on to setting up the YAML code on the mat [Yaml Code Installation](ht
 
 <script
   type="module"
-  src="https://unpkg.com/esp-web-tools@8.0.6/dist/web/install-button.js?module"
+  src="https://unpkg.com/esp-web-tools@10.0.1/dist/web/install-button.js?module"
 ></script>
 
 
