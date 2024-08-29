@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Using TrampleTek in HA
-nav_order: 7
+nav_order: 8
 ---
 
 # Explanation of the User Interface (UI) elements of the TrampleTek Blue (Home Assistant version)
