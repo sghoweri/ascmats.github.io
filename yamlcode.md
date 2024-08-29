@@ -54,6 +54,34 @@ I've found ESPHome's internal restoring of variables to be flaky, this will help
 -	You will be prompted with the install list, we will use “Plug into the computer” again. Follow the same steps we used previously to install the new YAML code onto the mat (the [your mat’s name].bin will have the same name).
 
 <img src="images/ESPHome_mat_yaml_plug_computer.png" width="600"> 
+
+- The following steps are a repeat of the previous section, I will just put the images here as a reminder. If you need the full guide, go back to the [Loading ESPHome on the TrampleTek mat](https://ascmats.github.io/mat_install.html) on the side navigation bar.
+
+<img src="images/download_project_wating.png" width="600"> 
+
+<img src="images/download_project_done.png" width="600"> 
+
+<img src="images/modern_format.png" width="600">  
+
+<img src="images/keep_bin_file.png" width="600"> 
+
+<img src="images/open_ESPHome_web.png" width="600">  
+
+<img src="images/ESPHome_web_connect.png" width="600"> 
+
+<img src="images/ESPHome_web_connect_usb.png" width="600"> 
+
+<img src="images/ESPHome_web_connect_install.png" width="600"> 
+
+<img src="images/ESPHome_web_connect_bin_browse.png" width="600"> 
+
+<img src="images/ESPHome_web_connect_bin_install.png" width="600">
+
+If this step fails go to [Boot Mode Instructions](https://ascmats.github.io/bootmode.html).
+
+<img src="images/ESPHome_web_connect_installing.png" width="600"> 
+
+<img src="images/ESPHome_web_connect_install_success.png" width="600">
  
 -	 After you finish installing, you can close out of ESPHome Web tab and navigate back to the ESPHome Open Web UI and click on “LOGS”. (Main Home Assistant page -> settings-> add-on -> ESPHome -> Open Web UI).
 
