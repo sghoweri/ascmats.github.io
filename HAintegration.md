@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Integrating into HA
-nav_order: 6
+nav_order: 7
 ---
 
 # Instructions for configuring the TrampleTek mat into the Home Assistant UI
