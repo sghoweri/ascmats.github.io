@@ -15,6 +15,10 @@ If you are not using the default Home Assistant with the ESPHome add-on (e.g. yo
 
 <img src="images/select_addons.png" width="600">
 
+- Select ESPHome.
+
+<img src="images/select_ESPHome.png" width="600">
+
 -	Open the Web UI.
 
 <img src="images/select_open_web_UI.png" width="600">
