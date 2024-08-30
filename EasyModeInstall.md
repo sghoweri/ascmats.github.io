@@ -13,9 +13,9 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
 
 ## These are the step-by-step instructions
 
-- First, open another window instance for your browser (must be Google Chrome or Microsoft Edge), as it can be hard to read the instructions and do use the ESP Web Tool (it covers the webpage).
+- First, ESP Web tools only work with Google Chrome or Microsoft Edge. Open another window of your browser, as it can be hard to read the instructions and use the ESP Web tool (it covers the webpage).
 
-- Click the button labeled "Connect" right below this line to start the ESP Web Tool:
+- Click the button labeled "Connect" right below this line to start the ESP Web tool:
 <esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json" install-supported="">
         <i slot="unsupported">
           The option is not available because your browser does not support Web
@@ -30,7 +30,7 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
 
 My COM port was COM9 in this example.
 
-- If the ESP Web Tools succesfully connect to the device you will see this pop-up, click "Install TrampleTek Blue Firmware"
+- If the ESP Web tools succesfully connect to the device you will see this pop-up, click "Install TrampleTek Blue Firmware"
 
 <img src="images/USBWeb_2_InstallFirmware.png" width="400"> 
 
@@ -54,7 +54,7 @@ My COM port was COM9 in this example.
 
 <img src="images/USBWeb_7_DeviceOnNetwork.png" width="400">
 
-- Close the ESP Web Tool.
+- Close the ESP Web tool.
 
 <img src="images/USBWeb_8_CloseWebUSB.png" width="400"> 
 
