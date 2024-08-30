@@ -94,7 +94,7 @@ If you missed your IP Address, you can also click on "visit" ESPHome card to fin
 
 <img src="images/DeviceSetup_1_Config.png" width="600">
 
-- One of two things might happen depending on your setup. You will get this option, where you just need to press submit:
+- One of two things might happen depending on your setup. You will get this option, where you just need to press submit (and yes, I changed the name of my mat to TTB Gray):
 
 <img src="images/DeviceSetup_2_No_IPaddress.png" width="400"> 
 
