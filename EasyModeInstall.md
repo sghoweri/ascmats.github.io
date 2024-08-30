@@ -11,7 +11,7 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
 
 ## (Warning) Easy Mode installation is dependent on web-based tools that might change, if they don't work jump to the [Loading ESPHome on the TrampleTek mat](https://ascmats.github.io/mat_install.html) section
 
-## These are step-by-step instructions
+## These are the step-by-step instructions
 
 - First, open another window instance for your browser (must be Google Chrome or Microsoft Edge), as it can be hard to read the instructions and do use the ESP Web Tool (it covers the webpage).
 
@@ -26,28 +26,29 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
 
 - This pop-up will appear asking to select the COM port for your mat. You can plug and un-plug your mat's USB cable into the computer you're using to see which COM port appears and disappears, pick that option and press "connect." (If you don't see anything showing up when you plug your USB cable into the computer you may have a USB driver issue, if you hit cancel a pop-up will give you some info on hope to install the right USB drivers.
 
-<img src="images/USBWeb_1_USBdialogConnect.png" width="600"> 
+<img src="images/USBWeb_1_USBdialogConnect.png" width="400"> 
+
 My COM port was COM9 in this example.
 
 - If the ESP Web Tools succesfully connect to the device you will see this pop-up, click "Install TrampleTek Blue Firmware"
 
-<img src="images/USBWeb_2_InstallFirmware.png" width="600"> 
+<img src="images/USBWeb_2_InstallFirmware.png" width="400"> 
 
 - You will get another pop-up to confirm, click "Install"
 
-<img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="600"> 
+<img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="400"> 
 
 - At first it will say "Erasing" for a bit, and then it will start to install
 
-<img src="images/USBWeb_4_WaitingToInstall.png" width="600">
+<img src="images/USBWeb_4_WaitingToInstall.png" width="400">
 
 - After a few minutes it should be successful!
 
-<img src="images/USBWeb_5_InstallDone.png" width="600"> 
+<img src="images/USBWeb_5_InstallDone.png" width="400"> 
 
 - Next it should ask for you Wi-Fi credentials, if you make a mistake it'll let you know.
 
-<img src="images/USBWeb_6_ConfigWifi.png" width="600">
+<img src="images/USBWeb_6_ConfigWifi.png" width="400">
 
 - Once your Wi-Fi has been accepted you will see this. 
 
