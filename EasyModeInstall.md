@@ -13,7 +13,7 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
 
 ## These are the step-by-step instructions
 
-- First, ESP Web tools only work with Google Chrome or Microsoft Edge. Open another window of your browser, as it can be hard to read the instructions and use the ESP Web tool (it covers the webpage).
+- ESP Web tools only work with Google Chrome or Microsoft Edge. Open another window of your browser, as it can be hard to read the instructions and use the ESP Web tool (it covers the webpage).
 
 - Click the button labeled "Connect" right below this line to start the ESP Web tool:
 <esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json" install-supported="">
@@ -24,7 +24,7 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
         </i>
 </esp-web-install-button>
 
-- This pop-up will appear asking to select the COM port for your mat. You can plug and un-plug your mat's USB cable into the computer you're using to see which COM port appears and disappears, pick that option and press "connect." (If you don't see anything showing up when you plug your USB cable into the computer you may have a USB driver issue, if you hit cancel a pop-up will give you some info on hope to install the right USB drivers.
+- The below pop-up will appear asking to select the COM port for your mat. You can plug and un-plug your mat's USB cable into the computer you're using to see which COM port appears and disappears, pick that option and press "connect." (If you don't see anything showing up when you plug your USB cable into the computer you may have a USB driver issue, if you hit cancel a pop-up will give you some info on hope to install the right USB drivers.)
 
 <img src="images/USBWeb_1_USBdialogConnect.png" width="400"> 
 
@@ -50,7 +50,7 @@ My COM port was COM9 in this example.
 
 <img src="images/USBWeb_6_ConfigWifi.png" width="400">
 
-- Once your Wi-Fi has been accepted you will see this, click on "skip" (we've only [installed this short code](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTekBlueYamlStub.yaml) that preps for ESPHome adoption).
+- Once your Wi-Fi has been accepted you will see this, click on "skip".
 
 <img src="images/USBWeb_7_DeviceOnNetwork.png" width="400">
 
