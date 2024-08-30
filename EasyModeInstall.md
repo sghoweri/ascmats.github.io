@@ -24,7 +24,7 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
         </i>
 </esp-web-install-button>
 
-- The below pop-up will appear asking to select the COM port for your mat. You can plug and un-plug your mat's USB cable into the computer you're using to see which COM port appears and disappears, pick that option and press "connect." (If you don't see anything showing up when you plug your USB cable into the computer you may have a USB driver issue, if you hit cancel a pop-up will give you some info on hope to install the right USB drivers.)
+- The below pop-up will appear asking to select the COM port for your mat. You can plug and un-plug your mat's USB cable into the computer you're using to see which COM port appears and disappears, pick that option and press "connect." (If you don't see anything showing up when you plug your USB cable into the computer you may have a USB driver issue, if you hit cancel a pop-up will give you some info on hope to install the right USB drivers).
 
 <img src="images/USBWeb_1_USBdialogConnect.png" width="400"> 
 
@@ -62,6 +62,10 @@ My COM port was COM9 in this example.
 
 <img src="images/select_addons.png" width="600">
 
+- Select ESPHome.
+
+<img src="images/select_ESPHome.png" width="600">
+
 - Open the Web UI.
 
 <img src="images/select_open_web_UI.png" width="600">
@@ -82,7 +86,7 @@ My COM port was COM9 in this example.
 
 <img src="images/ESPHome_Adopt_4_OTAlogger.png" width="600">
 
-- (If the above step fails, jump to the [Loading ESPHome on the TrampleTek Blue mat](https://ascmats.github.io/mat_install.html) and go to step "Connect your mat to your computer using the USB-C to USB cable that came with the mat and pick “Plug into this computer.”", then click on the three dots in the bottom right of the ESPhome card, where you just pressed "Adopt", and click "Install".)
+- (If the above step fails, jump to the [Loading ESPHome on the TrampleTek Blue mat](https://ascmats.github.io/mat_install.html) and go to step "Connect your mat to your computer using the USB-C to USB cable that came with the mat and pick “Plug into this computer.”", then click on the three dots in the bottom right of the ESPhome card, where you just pressed "Adopt", and click "Install". Follow the instructions there until you see something like the next image).
   
 - Eventually you will see this. MAKE SURE TO WRITE DOWN YOUR IP Address, not the one in the picture. Yours will likely not be 192.168.0.4, but it may be very similar. Click "Stop" to leave this logger page.
 
