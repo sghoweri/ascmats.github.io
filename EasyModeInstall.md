@@ -34,11 +34,11 @@ My COM port was COM9 in this example.
 
 <img src="images/USBWeb_2_InstallFirmware.png" width="400"> 
 
-- You will get another pop-up to confirm, click "Install"
+- You will get another pop-up to confirm, click "Install".
 
 <img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="400"> 
 
-- At first it will say "Erasing" for a bit, and then it will start to install
+- At first it will say "Erasing" for a bit, and then it will start to install.
 
 <img src="images/USBWeb_4_WaitingToInstall.png" width="400">
 
@@ -50,50 +50,66 @@ My COM port was COM9 in this example.
 
 <img src="images/USBWeb_6_ConfigWifi.png" width="400">
 
-- Once your Wi-Fi has been accepted you will see this. 
+- Once your Wi-Fi has been accepted you will see this, click on "skip" (we've only [installed this short code](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTekBlueYamlStub.yaml) that preps for ESPHome adoption).
 
+<img src="images/USBWeb_7_DeviceOnNetwork.png" width="400">
 
+- Close the ESP Web Tool.
 
+<img src="images/USBWeb_8_CloseWebUSB.png" width="400"> 
 
+- Open a Home Assistant tab, typically [http://homeassistant.local:8123/](http://homeassistant.local:8123/), and open ESPHome in the Settings -> Add-ons section.
 
+<img src="images/select_addons.png" width="600">
 
+- Open the Web UI.
 
-<img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="600"> 
-<img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="600"> 
-<img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="600"> 
-<img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="600"> 
-<img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="600"> 
-<img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="600"> 
-<img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="600"> 
+<img src="images/select_open_web_UI.png" width="600">
 
+- Your mat will have a green bar at the top, it will be called "TTBlue" with a string of numbers/letter after. Click on "Adopt".
 
+<img src="images/ESPHome_Adopt_1_click.png" width="600"> 
 
+- Give you mat a useful name, something short that describes where it is. I picked "TTB Garage" because it's in my garage. Click "Adopt".
 
-- This pop-up will appear asking to select the COM port for your mat. You can plug and un-plug your mat's USB cable into the computer you're using to see which COM port appears and disappears, pick that option and press "connect." (If you don't see anything showing up when you plug your USB cable into the computer you may have a USB driver issue, if you hit cancel a pop-up will give you some info on hope to install the right USB drivers.
+<img src="images/ESPHome_Adopt_2_nameChange.png" width="400"> 
 
-<img src="images/USBWeb_1_USBdialogConnect.png" width="600"> 
-My COM port was COM9 in this example.
+- Now install with your new name! Click "Install".
 
-- If the ESP Web Tools succesfully connect to the device you will see this pop-up
+<img src="images/ESPHome_Adopt_3_Install.png" width="400"> 
 
-- sdf
+- This part is going to take awhile, like 3-4+ minutes. It's going to build the code and then install it over Wi-Fi. Make sure your mat is in a good place for signal from your router. The underlined bar shows the progress of installing over the Wi-Fi.
 
+<img src="images/ESPHome_Adopt_4_OTAlogger.png" width="600">
 
+- (If the above step fails, jump to the [Loading ESPHome on the TrampleTek Blue mat](https://ascmats.github.io/mat_install.html) and go to step "Connect your mat to your computer using the USB-C to USB cable that came with the mat and pick “Plug into this computer.”", then click on the three dots in the bottom right of the ESPhome card, where you just pressed "Adopt", and click "Install".)
+  
+- Eventually you will see this. MAKE SURE TO WRITE DOWN YOUR IP Address, not the one in the picture. Yours will likely not be 192.168.0.4, but it may be very similar. Click "Stop" to leave this logger page.
 
+<img src="images/ESPHome_Adopt_5_LoggerStop.png" width="600"> 
 
+If you missed your IP Address, you can also click on "visit" ESPHome card to find it out. The address will be in the web address bar at the top.
 
+- Now we need to integrate the device into Home Assistant. Navigate with the left side bar to the Settings -> Devices & Services, click on configure under the new device you just set up. The device might show with the original name "TTB xxxxxx" or your adopted name, don't worry the name you picked will be displayed in main Home Assistant UI after this step. Click "Configure".
 
-## Ignore this section, active testing happening
+<img src="images/DeviceSetup_1_Config.png" width="600">
+
+- One of two things might happen depending on your setup. You will get this option, where you just need to press submit:
+
+<img src="images/DeviceSetup_2_No_IPaddress.png" width="400"> 
+
+- Or you might need to supply the device's IP address and ESPHome node port (which is defaultly 6053):
+
+<img src="images/DeviceSetup_2_IPaddress.png" width="400">
+
+- Next pick where in Home Assistant you want to assign the device, click "Finish", and you're done installing your TrampleTek Blue mat!
+
+<img src="images/DeviceSetup_3_Location.png" width="400">
+
+## Next Steps
+Let's move on to [understanding the UI elements of the TrampleTek Blue (Home Assistant version)](https://ascmats.github.io/usingHAui.html).
 
 <script
   type="module"
   src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"
 ></script>
-
-<esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json" install-supported="">
-        <i slot="unsupported">
-          The option is not available because your browser does not support Web
-          Serial. Open this page in Google Chrome or Microsoft Edge instead<span class="not-supported-i hidden">
-            (but not on your iOS device)</span>.
-        </i>
-</esp-web-install-button>
