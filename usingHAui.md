@@ -24,6 +24,8 @@ This component is as simple as it gets, it just shows when the mat has been trig
 
 <img src="images/HA_UI_dropdown.png" width="600">
 
+(WARNING: ALL MATS HAVE SLIGHTLY DIFFERENT SENSITIVITY, take all weight values below as rough estimates as they could differ greatly from one mat to another.)
+
 This component sets the sensitivity of the mat from a drop down menu. The five options are long to help explain them in the UI, the options are:
 
 **1) Low weight object (<1 lb) on an uncovered mat, or a heavy weight object on a heavy weight covered mat (e.g. adult human with mat under mattress). Very sensitive, may cause false triggering**
