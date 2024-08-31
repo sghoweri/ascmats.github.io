@@ -85,8 +85,6 @@ My COM port was COM9 in this example.
 - This part is going to take awhile, like 3-4+ minutes. It's going to build the code and then install it over Wi-Fi. Make sure your mat is in a good place for signal from your router. The underlined bar shows the progress of installing over the Wi-Fi.
 
 <img src="images/ESPHome_Adopt_4_OTAlogger.png" width="600">
-
-- (If the above step fails, jump to the [Loading ESPHome on the TrampleTek Blue mat](https://ascmats.github.io/mat_install.html) and go to step "Connect your mat to your computer using the USB-C to USB cable that came with the mat and pick “Plug into this computer.”", then click on the three dots in the bottom right of the ESPhome card, where you just pressed "Adopt", and click "Install". Follow the instructions there until you see something like the next image).
   
 - Eventually you will see this. MAKE SURE TO WRITE DOWN YOUR IP Address, not the one in the picture. Yours will likely not be 192.168.0.4, but it may be very similar. Click "Stop" to leave this logger page.
 
