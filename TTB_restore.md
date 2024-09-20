@@ -27,7 +27,7 @@ You've like the Home Assistant version, but for some reason you want to change t
 
 <img src="images/Reflash_4_UnzipESPTool.png" width="600">
 
--	After it opens you'll need to pick (1) ChipType - pick ESP32-C3, (2) WorkMode - Develop, (3) LoadMode - USB.
+-	After it opens you'll need to pick (1) ChipType - pick ESP32-C3, (2) WorkMode - Develop, and (3) LoadMode - USB.
 -	Click "OK"
 
 <img src="images/Reflash_5_PickESP32.png" width="600">   
@@ -44,7 +44,7 @@ You've like the Home Assistant version, but for some reason you want to change t
 
 <img src="images/Reflash_8_dataIn1.png" width="600">  
 
-- Now click the check box on the left and type "OxO" into the box on the right. The box areas should turn green once you've done this.
+- Now click the check box on the left and type "0x0" into the box on the right. The box areas should turn green once you've done this.
 
 <img src="images/Reflash_8_dataIn2.png" width="600">
 
