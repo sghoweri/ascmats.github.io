@@ -49,7 +49,7 @@ These steps will revert the mat back to its original programming so it can be us
 <img src="images/Reflash_8_dataIn2.png" width="600">
 
 - Now you need to pick your COM port, if you haven't connected your mat to your computer using the USB cable, do so now.
-- If you don't know which COM port is the right one, unplug the mat and open the COM port drop down menu and take note of the COM ports. Then click away (to close the COM port drop down menu), plug in your mat, and check to see if any new COM port numbers have shown up. If yes, that's the mat's COM port, select it.
+- If you don't know which COM port is the right one, unplug the mat and open the COM port drop down menu and take note of the COM ports. Then, click away (to close the COM port drop down menu), plug in your mat, and re-open the COM port drop down menu. Check to see if any new COM port numbers have shown up. If yes, that's the mat's COM port, select it.
 
 <img src="images/Reflash_9_ComPort.png" width="600"> 
 
