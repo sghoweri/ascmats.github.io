@@ -12,7 +12,7 @@ nav_order: 4
 
 ## As you move through the install I will point out when to add this.
 
-This a known issue with the [boards](https://www.wemos.cc/en/latest/c3/c3_mini.html) we are using for the mat, (more details [here](https://community.home-assistant.io/t/unable-to-connect-to-wifi-auth-expired-and-association-expired/678570/2)).
+This a known issue with the [boards](https://www.wemos.cc/en/latest/c3/c3_mini.html) we are using for the mat, more details [here](https://community.home-assistant.io/t/unable-to-connect-to-wifi-auth-expired-and-association-expired/678570/2).
 
 ## If you skip the rest of the setup because you're an expert, please don't skip this step!
 
