@@ -7,8 +7,10 @@ nav_order: 1
 
 <img src="images/mat_usage_image.png" width="600">
 
-This documentation will help you through the hardware setup for through Home Assistant and through some troubleshooting if things don't go quite as smoothly as expected.
+This documentation will help you through the hardware setup for Home Assistant and through some troubleshooting if things don't go quite as smoothly as expected.
+
+Let's get started by checking to make sure you have the [Requirements](https://ascmats.github.io/requirements.html) ready to set up TrampleTek Blue (Home Assistant version).
 
 You can alway contact me at Raymond@asc.com if you have issues, questions, or suggestions for the documentation.
 
-Let's get started by checking to make sure you have the [Requirements](https://ascmats.github.io/requirements.html) ready to set up TrampleTek Blue (Home Assistant version).
+Link to the github repo for these web page is [here](https://github.com/ascmats/ascmats.github.io)
