@@ -24,11 +24,11 @@ These steps will revert the mat back to its original programming so it can be us
 
 <img src="images/Reflash_3_UnzipESPTool.png" width="600">
 
-- Open your newly extracted folder and open the file named flash_download_tool_3.9.7 (the number may change in future updates, but it should still be called flash_download_tool_(numbers)).
+- Open your newly extracted folder and open the file named "flash_download_tool_3.9.7" (the number may change in future updates, but it should still be called "flash_download_tool_(numbers)").
 
 <img src="images/Reflash_4_UnzipESPTool.png" width="600">
 
--	After it opens you'll need to pick (1) ChipType - pick ESP32-C3, (2) WorkMode - Develop, and (3) LoadMode - USB.
+-	After it opens you'll need to pick the following: (1) ChipType - ESP32-C3, (2) WorkMode - Develop, and (3) LoadMode - USB.
 -	Click "OK"
 
 <img src="images/Reflash_5_PickESP32.png" width="600">   
