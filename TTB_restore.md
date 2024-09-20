@@ -10,7 +10,7 @@ These steps will revert the mat back to its original programming so it can be us
 
 - First, click this [link to directly download](https://github.com/ASCKing9/TrampleTek-Blue-code/raw/refs/heads/main/TrampleTekBlueToothSocket.bin) the TrampleTekBlueToothSocket.bin from the Github [TrampleTek-Blue-code repo](https://github.com/ASCKing9/TrampleTek-Blue-code). It will go to whatever your default download folder is.
 
-- Next, we will need to download the Espressif Flash Download Tools from [here](https://www.espressif.com/en/support/download/other-tools), click on the download arrow.
+- Next, we will need to download the Espressif Flash Download Tools from [here](https://www.espressif.com/en/support/download/other-tools). Find the Flash Download Tools line and click on the download arrow.
 
 <img src="images/Reflash_1_DownloadESPTool.png" width="600">
 (This is what the page looked like 9/20/24)
