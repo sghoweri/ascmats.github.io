@@ -67,6 +67,6 @@ These steps will revert the mat back to its original programming so it can be us
 
 ## Now unplug and re-plug in the mat and you'll see the blue light start flashing, this indicates that it's searching for a nearby TrampleTek Blue socket to pair with! Plug in your original TrampleTek Blue socket nearby and you're all ready to go.
 
-## Go [here](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTekBlue_socketVerison/TrampleTek%20Instructions%20Brochure%20reduced%20color.pdf) for the original TrampleTek Blue instruction manual
+## Go [here](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTekBlue_socketVerison/TrampleTek%20Instructions%20Brochure%20reduced%20color.pdf) for the original TrampleTek Blue instruction manual.
 
 
