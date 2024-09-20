@@ -6,7 +6,7 @@ nav_order: 10
 
 # Instructions for reverting the TrampleTek Blue mat back to being Smart Socket only
 
-You've like the Home Assistant version, but for some reason you want to change the mat back to its original programming and use it to connect to the TrampleTek Blue smart socket. Let's get started.
+These steps will revert the mat back to its original programming so it can be used with a TrampleTek Blue socket.
 
 - First, click this [link to directly download](https://github.com/ASCKing9/TrampleTek-Blue-code/raw/refs/heads/main/TrampleTekBlueToothSocket.bin) the TrampleTekBlueToothSocket.bin from the Github [TrampleTek-Blue-code repo](https://github.com/ASCKing9/TrampleTek-Blue-code). It will go to whatever your default download folder is.
 
