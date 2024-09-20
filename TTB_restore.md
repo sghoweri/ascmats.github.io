@@ -13,6 +13,7 @@ These steps will revert the mat back to its original programming so it can be us
 - Next, we will need to download the Espressif Flash Download Tools from [here](https://www.espressif.com/en/support/download/other-tools). Find the Flash Download Tools line and click on the download arrow.
 
 <img src="images/Reflash_1_DownloadESPTool.png" width="600">
+
 (This is what the page looked like 9/20/24)
 
 - After it downloads, extract the compressed (zipped) folder by right-clicking on the file and picking extract (or unzip on some computers).
