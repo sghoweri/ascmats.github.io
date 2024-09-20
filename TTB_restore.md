@@ -40,7 +40,7 @@ These steps will revert the mat back to its original programming so it can be us
 
 <img src="images/Reflash_7_dots.png" width="600">  
 
-- This will open a file selector window, navigate to where you downloaded the TrampleTekBlueToothSocket.bin from the first step, and click open.
+- This will open a file selector window, navigate to where you downloaded the [TrampleTekBlueToothSocket.bin](https://github.com/ASCKing9/TrampleTek-Blue-code/raw/refs/heads/main/TrampleTekBlueToothSocket.bin) from the first step, and click open.
 
 <img src="images/Reflash_8_dataIn1.png" width="600">  
 
