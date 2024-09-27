@@ -94,7 +94,7 @@ This is an example of the voltage plot as I stand on and off the mat with 1 and 
 
 If you have more technical questions you can alway contact me at Raymond@asc.com
 
-## Secret button from Travis
+## Secret button for Travis
 
 <esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/refs/heads/main/TrampleTek_Debug/WeightExclusionBeta/TrampleTekBlue_ExWeight.json" install-supported="">
         <i slot="unsupported">
