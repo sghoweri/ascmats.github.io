@@ -10,4 +10,4 @@ nav_order: 4
 If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on the TrampleTek mat](https://ascmats.github.io/mat_install.html) section and altering the directions and files as you need. If you are not a Home Assistant power-user yet, then these instructions are for you.
 
 ## Next Steps
-Let's move on to [Loading ESPHome on the TrampleTek Blue mat)](https://ascmats.github.io/mat_install.html).
+Let's move on to [Loading ESPHome on the TrampleTek Blue mat](https://ascmats.github.io/mat_install.html).
