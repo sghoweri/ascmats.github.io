@@ -26,7 +26,7 @@ nav_order: 3
 The default UI elements should look something like this.
 
 ## Next Steps
-Let's move on to [understanding the UI elements of the TrampleTek Blue (Home Assistant version)](https://ascmats.github.io/usingHAui.html).
+Now let's do a double check that you added the [Wifi critical fix](https://ascmats.github.io/docs/Manual-Installation/critical_wifi.html).
 
 
 
