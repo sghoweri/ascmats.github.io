@@ -1,4 +1,5 @@
 ---
+layout: default
 title: CRITICAL FIX (Check or no workie)
 nav_order: 4
 ---
