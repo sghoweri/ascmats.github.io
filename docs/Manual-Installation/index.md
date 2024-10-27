@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Manual Installation
 nav_order: 3
 ---
