@@ -2,6 +2,13 @@ title: TrampleTek Blue (HA version)
 description: Documentation for the TrampleTek Blue (Home Assistant version).
 theme: just-the-docs
 
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
 url: https://ascmats.github.io
 
 aux_links:
