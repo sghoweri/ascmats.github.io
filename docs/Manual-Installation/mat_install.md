@@ -105,4 +105,4 @@ WARNING: THIS STEP MIGHT FAIL! That’s okay, it just means the computer can’t
 <img src="../../images/ESPHome_web_connect_install_success.png" width="600">
 
 ## Next Steps
-Let's move on to setting up the YAML code on the mat [Yaml Code Installation](https://ascmats.github.io/yamlcode.html).
+Let's move on to setting up the YAML code on the mat [Yaml Code Installation](https://ascmats.github.io/docs/Manual-Installation/yamlcode.html).
