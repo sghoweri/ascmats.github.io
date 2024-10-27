@@ -1,6 +1,6 @@
 ---
 title: Welcome to the TrampleTek Blue Docs
-layout: home
+layout: default
 nav_order: 1
 ---
 # Welcome to the documentation for TrampleTek Blue (Home Assistant version)!
