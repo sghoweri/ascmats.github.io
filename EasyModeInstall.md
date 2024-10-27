@@ -7,9 +7,9 @@ nav_order: 3
 # Loading ESPHome on the TrampleTek Blue mat using [ESP Web tools](https://esphome.github.io/esp-web-tools/)
 
 ## These instructions are for default Home Assistant UI with the ESPHome add-on
-If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on the TrampleTek mat](https://ascmats.github.io/mat_install.html) section and altering the directions and files as you need. If you are not a Home Assistant power-user yet, then these instructions are for you.
+If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on the TrampleTek mat](https://ascmats.github.io/docs/Manual-Installation/mat_install.html) section and altering the directions and files as you need. If you are not a Home Assistant power-user yet, then these instructions are for you.
 
-## (Warning) Easy Mode installation is dependent on web-based tools that might change, if they don't work jump to the [Loading ESPHome on the TrampleTek mat](https://ascmats.github.io/mat_install.html) section
+## (Warning) Easy Mode installation is dependent on web-based tools that might change, if they don't work jump to the [Manual Installation](https://ascmats.github.io/docs/Manual-Installation/) section
 
 ## These are the step-by-step instructions
 
