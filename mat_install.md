@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Loading ESPHome on the TrampleTek mat
-nav_order: 5
+parent: Manual Installation
+nav_order: 1
 ---
 
 # Loading ESPHome on the TrampleTek Blue mat
