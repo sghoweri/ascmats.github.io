@@ -32,7 +32,7 @@ If you are not using the default Home Assistant with the ESPHome add-on (e.g. yo
 
 <img src="../../images/select_new_device_continue.png" width="600">
 
-For now we will use the ESPHome web interface, as there are steps we need to take to make sure the board's Wi-Fi is configured to be stable enough to connect with Home Assistant. This is the [critical fix](https://ascmats.github.io/critical_wifi.html) I mentioned in a previous section.
+For now we will use the ESPHome web interface, as there are steps we need to take to make sure the board's Wi-Fi is configured to be stable enough to connect with Home Assistant. This is the [critical fix](https://ascmats.github.io/docs/Manual-Installation/critical_wifi.html) I will mention in multiple places.
 
 -	Pick a name for your mat.
 
