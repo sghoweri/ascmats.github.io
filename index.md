@@ -13,6 +13,7 @@ This documentation will help you through the hardware setup for Home Assistant a
 
 ## If you want to revert your mat back to the original TrampleTek Blue (Bluetooth socket version) go [here](https://ascmats.github.io/TTB_restore.html).
 
+
 You can alway contact me at Raymond@asc.com if you have issues, questions, or suggestions for the documentation.
 
-Link to the github repo for these web page is [here](https://github.com/ascmats/ascmats.github.io)
+Link to the github repo for these web page is [here](https://github.com/ascmats/ascmats.github.io).
