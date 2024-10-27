@@ -1,5 +1,4 @@
 ---
-layout: default
 title: YAML Code Installation
 parent: Manual Installation
 nav_order: 2
