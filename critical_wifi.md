@@ -1,6 +1,6 @@
 ---
 title: CRITICAL FIX (Check or no workie)
-parent: UI Components
+parent: Manual Installation
 nav_order: 4
 ---
 
