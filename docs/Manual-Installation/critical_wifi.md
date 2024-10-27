@@ -1,6 +1,5 @@
 ---
 title: CRITICAL FIX (Check or no workie)
-parent: Manual Installation
 nav_order: 4
 ---
 
