@@ -1,6 +1,6 @@
 ---
 layout: default
-title: YAML Code Installation
+title: Configure into HA
 parent: Manual Installation
 nav_order: 3
 ---
