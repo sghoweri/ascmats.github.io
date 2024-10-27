@@ -9,7 +9,7 @@ nav_order: 4
 
 ## Over The Air (OTA) updates and Wi-Fi connectivity will not work well unless this line is added to YAML code, please double check it is there:
 
-<img src="images/critical_wifi.png" width="600">
+<img src="../../images/critical_wifi.png" width="600">
 
 This a known issue with the [boards](https://www.wemos.cc/en/latest/c3/c3_mini.html) we are using for the mat, more details [here](https://community.home-assistant.io/t/unable-to-connect-to-wifi-auth-expired-and-association-expired/678570/2).
 
