@@ -21,22 +21,22 @@ This section assumes you're a tech wizard of some level and that you have the **
 ### Step 2: Download a Bluetooth Scanner
 - If you don’t have a Bluetooth scanner, download "nRF Connect" by Nordic Semiconductor on Windows, Android, or Apple devices.
 
-<img src="images/BLEhack_1_nrfApp.jpg" width="600" alt="nRF Connect App Screenshot">
+<img src="images/BLEhack_1_nrfApp.jpg" width="400" alt="nRF Connect App Screenshot">
 
 ### Step 3: Scan for Bluetooth Devices
 - Open **nRF Connect**, press the **Scan** button at the top, and find the Bluetooth device starting with **"TramTek"**. Tap **Connect**.
 
-<img src="images/BLEhack_2_scan.jpg" width="600" alt="Scanning for Bluetooth Devices">
+<img src="images/BLEhack_2_scan.jpg" width="400" alt="Scanning for Bluetooth Devices">
 
 ### Step 4: Access the Bluetooth Socket's Characteristics
 - Tap on the **"Unknown Service"**, then tap the **up-arrow** on the **"Unknown Characteristic"** with **"NOTIFY, WRITE"** properties (UUID numbers are listed at the end of these instructions).
 
-<img src="images/BLEhack_3_send.jpg" width="600" alt="Unknown Characteristic with Notify, Write Properties">
+<img src="images/BLEhack_3_send.jpg" width="400" alt="Unknown Characteristic with Notify, Write Properties">
 
 ### Step 5: Send Commands
 - Select **"TEXT (UTF-8)"** from the drop-down menu, and then send any of the following commands:
 
-<img src="images/BLEhack_4_command.jpg" width="600" alt="Sending Commands to the Bluetooth Socket">
+<img src="images/BLEhack_4_command.jpg" width="400" alt="Sending Commands to the Bluetooth Socket">
 
 ---
 
