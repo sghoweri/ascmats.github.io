@@ -4,19 +4,19 @@ title: Hacking Bluetooth Socket Instructions
 nav_order: 11
 ---
 
-# Instructions for hacking into the (optional) Bluetooth plug
+# Instructions for hacking into the (optional) Bluetooth socket
 
-## This is not instructions on how to connect the Bluetooth sockets into Home Assisant.
+## This instructions on how to connect the Bluetooth sockets into Home Assistant, you'll need to look up that information on the [Home Assistant forums](https://community.home-assistant.io/).
 
-## This section assumes you're a tech wizard of some level, and that you have the ASC Bluetooth plug (which is optional when you made your purchase). If you have a Bluetooth device scanner then you can skip to the bottom to look at the possible commands.
+## This section assumes you're a tech wizard of some level, and that you have the ASC Bluetooth plug (which is optional when you made your purchase). If you have a Bluetooth device scanner then you can skip to the bottom to look at the possible commands you can send to the socket.
 
-**- First, plug in your ASC Bluetooth socket. Make sure the side LED is flashing blue, as that means it's waiting to pair.**
+**- First, plug in your ASC Bluetooth socket. Make sure the LED is flashing blue, as that means it's waiting to pair.**
 
-- If you don't have a Bluetooth scanner, download "nRF Connect" by Nordic Semiconductor for your Windows, Android, or Apple device. Use the Scan button at the top to search for the Bluetooth socket.
+- If you don't have a Bluetooth scanner, download "nRF Connect" by Nordic Semiconductor for your Windows, Android, or Apple device.
   
 <img src="images/BLEhack_1_nrfApp.jpg" width="600">
 
-- Find the Bluetooth device that starts with "TramTek" and tap connect.
+-  Use the Scan button at the top to search for the Bluetooth socket, and find the Bluetooth device that starts with "TramTek" and tap connect.
 
 <img src="images/BLEhack_2_scan.jpg" width="600">
 
