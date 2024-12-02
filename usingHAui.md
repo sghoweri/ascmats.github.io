@@ -88,7 +88,7 @@ This is an example of the voltage plot as I stand on and off the mat with 1 and 
 ### Extra: Technical notes
 - The Sensitivity value is the voltage change required to trigger "on" for the mat. The "off" trigger is a percentage of this value. This is because the mat can recover slowly from heavy or large objects and requiring less of a voltage change when weight comes off helps increase the responsiveness of the mat. You can get rid of this by removing the variable "scaleThreshold" in the YAML code. Look for this line **matUpThreshold = matDataAvg + id(step_event_threshold) * scaleThreshold; // Recovery can be slower, reduces the threshold requirement**
 
-- The voltage change for the same weight can be different depending on how much weight is already on the mat (e.g. the first 10lbs on the mat might change the voltage by 0.5 V but another 10lbs may only change the mat voltage by an additional 0.1 V). The mats are tuned to be very sensitive to low weights, <20 lbs), but struggle to tell the different between 100 lbs and 1000 lbs. Below is a sweet MS Paint graphic to explain why higher weights need sometimes need a *lower* sensitivity value:
+- The voltage change for the same weight can be different depending on how much weight is already on the mat (e.g. the first 10lbs on the mat might change the voltage by 0.5 V but another 10lbs may only change the mat voltage by an additional 0.1 V). The mats are tuned to be very sensitive to low weights, <20 lbs), but struggle to tell the different between 100 lbs and 1000 lbs. Below is a sweet MS Paint graphic to explain why higher weights sometimes need a *lower* sensitivity value:
   
 <img src="images/SensitivityCurve.png" width="600">
   
