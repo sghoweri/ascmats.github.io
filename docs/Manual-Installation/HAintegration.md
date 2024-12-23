@@ -28,6 +28,4 @@ The default UI elements should look something like this.
 ## Next Steps
 Now let's do a double check that you added the [Wifi critical fix](https://ascmats.github.io/docs/Manual-Installation/critical_wifi.html).
 
-
-
-
+Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
