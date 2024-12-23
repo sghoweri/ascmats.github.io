@@ -53,3 +53,5 @@ All commands are sent as **UTF-8 text** (without quotation marks). Here are the 
 ## UUIDs for Bluetooth Services and Characteristics
 - **UUID Service #**: `4faf01c2-1b91-45e9-8fcc-c59cc333914b`
 - **UUID Characteristic #**: `af01c21b-9145-e98f-c5cc-9cc31c913a8b`
+
+Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
