@@ -97,11 +97,4 @@ If this step fails go to [Boot Mode Instructions](https://ascmats.github.io/boot
 ## Next Steps
 Let's move on to [configuring the mat into the Home Assistant UI](https://ascmats.github.io/docs/Manual-Installation/HAintegration.html).
 
-
-
-
-
-
-
-
-
+Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
