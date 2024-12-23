@@ -22,3 +22,5 @@ Once you get Home Assistant running you will need to add the [ESPHome](https://e
 ## Next Steps
 
 Now with Home Assistant and ESPHome setup and ready, we can either try [Easy Mode Installation](https://ascmats.github.io/EasyModeInstall.html) or, if you're a power Home Assistant user and plan to skip most of the instructions make sure to check out [critical fix](https://ascmats.github.io/docs/Manual-Installation/critical_wifi.html) before looking over the mored detailed [Manual Installation](https://ascmats.github.io/docs/Manual-Installation/).
+
+Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
