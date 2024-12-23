@@ -106,3 +106,5 @@ WARNING: THIS STEP MIGHT FAIL! That’s okay, it just means the computer can’t
 
 ## Next Steps
 Let's move on to setting up the YAML code on the mat [Yaml Code Installation](https://ascmats.github.io/docs/Manual-Installation/yamlcode.html).
+
+Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
