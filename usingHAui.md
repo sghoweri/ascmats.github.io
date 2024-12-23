@@ -94,7 +94,7 @@ This is an example of the voltage plot as I stand on and off the mat with 1 and 
   
 - **<ins>Every mat's voltage range and sensitivity is different</ins>**. Textiles and soft stretchy materials do not always line up the exact same way for each mat build, so there is an expected, and sometimes sizable, varability between mats. If you have multiple mats, do not expect the same Sensivitiy level to work for all your mats for the same use case.
 
-If you have more technical questions you can alway contact me at Raymond@asc.com
+Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
 
 ## Secret button for Travis
 
