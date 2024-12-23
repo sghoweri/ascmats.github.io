@@ -20,3 +20,5 @@ In the future we may move away from these boards because of this issue, and alth
 
 ## Next Steps
 Let's move on to [understanding the UI elements of the TrampleTek Blue (Home Assistant version).](https://ascmats.github.io/usingHAui.html)!
+
+Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
