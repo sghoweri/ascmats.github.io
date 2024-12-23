@@ -111,6 +111,8 @@ If you missed your IP Address, you can also click on "visit" ESPHome card to fin
 ## Next Steps
 If this worked, then you can **SKIP** the Manual Installation section and move directly to [understanding the UI elements of the TrampleTek Blue (Home Assistant version)](https://ascmats.github.io/usingHAui.html).
 
+Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
+
 <script
   type="module"
   src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"
