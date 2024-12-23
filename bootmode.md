@@ -43,5 +43,4 @@ Unplug the USB-C cable and clip the protective cover back onto the circuit board
 ## Next Steps
 Let's move on to setting up the YAML code on the mat [Yaml Code Installation](https://ascmats.github.io/yamlcode.html).
 
-
-
+Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
