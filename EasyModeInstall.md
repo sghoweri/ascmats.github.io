@@ -60,7 +60,7 @@ My COM port was COM9 in this example.
 
 - This will jump you directly to your Settings --> Devices & Services page in Home Assisant. Click "Ok" to setup the device in ESPHome.
 
-<img src="images/USBWeb_11_ESPHome_HA.png" width="400">
+<img src="images/USBWeb_11_ESPHome_HA.png" width="600">
 
 - Select the new TTBlue device.
 
