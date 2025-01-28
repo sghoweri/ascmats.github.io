@@ -34,7 +34,7 @@ My COM port was COM9 in this example.
 
 <img src="images/USBWeb_2_InstallFirmware.png" width="400"> 
 
-- You will get another pop-up to confirm, click "Install".
+- You will get another pop-up to confirm, click "Install" (firmware version number might be different for you).
 
 <img src="images/USBWeb_3_InstallFirmwareConfirm.png" width="400"> 
 
@@ -50,66 +50,38 @@ My COM port was COM9 in this example.
 
 <img src="images/USBWeb_6_ConfigWifi.png" width="400">
 
-- Once your Wi-Fi has been accepted you will see this, click on "skip".
+- Once your Wi-Fi has been accepted there are several ways to integrate the mat into Home Assistant, this is easiest. Click on "Add to Home Assistant".
 
-<img src="images/USBWeb_7_DeviceOnNetwork.png" width="400">
+<img src="images/USBWeb_9_add_HA.png" width="400">
 
-- Close the ESP Web tool.
+- That will open a new tab that wants to connect to the default web address for Home Assistant. Click on the "Open Link".
 
-<img src="images/USBWeb_8_CloseWebUSB.png" width="400"> 
+<img src="images/USBWeb_10_open_HA.png" width="400">
 
-- Open a Home Assistant tab, typically [http://homeassistant.local:8123/](http://homeassistant.local:8123/), and open ESPHome in the Settings -> Add-ons section.
+- This will jump you directly to your Settings --> Devices & Services page in Home Assisant. Click "Ok" to setup the device in ESPHome.
 
-<img src="images/select_addons.png" width="600">
+<img src="images/USBWeb_11_ESPHome_HA.png" width="400">
 
-- Select ESPHome.
+- Select the new TTBlue device.
 
-<img src="images/select_ESPHome.png" width="600">
+<img src="images/USBWeb_12_select_mat.png" width="400">
 
-- Open the Web UI.
+- Then you have to click submit.
 
-<img src="images/select_open_web_UI.png" width="600">
-
-- Your mat will have a green bar at the top, it will be called "TTBlue" with a string of numbers/letter after. Click on "Adopt".
-
-<img src="images/ESPHome_Adopt_1_click.png" width="600"> 
-
-- Give you mat a useful name, something short that describes where it is. I picked "TTB Garage" because it's in my garage. Click "Adopt".
-
-<img src="images/ESPHome_Adopt_2_nameChange.png" width="400"> 
-
-- Now install with your new name! Click "Install".
-
-<img src="images/ESPHome_Adopt_3_Install.png" width="400"> 
-
-- This part is going to take awhile, like 3-4+ minutes. It's going to build the code and then install it over Wi-Fi. Make sure your mat is in a good place for signal from your router. The underlined bar shows the progress of installing over the Wi-Fi.
-
-<img src="images/ESPHome_Adopt_4_OTAlogger.png" width="600">
-  
-- Eventually you will see this. MAKE SURE TO WRITE DOWN YOUR IP Address, not the one in the picture. Yours will likely not be 192.168.0.4, but it may be very similar. Click "Stop" to leave this logger page.
-
-<img src="images/ESPHome_Adopt_5_LoggerStop.png" width="600"> 
-
-If you missed your IP Address, you can also click on "visit" ESPHome card to find it out. The address will be in the web address bar at the top.
-
-- Now we need to integrate the device into Home Assistant. Navigate with the left side bar to the Settings -> Devices & Services, click on configure under the new device you just set up. The device might show with the original name "TTB xxxxxx" or your adopted name, don't worry the name you picked will be displayed in main Home Assistant UI after this step. Click "Configure".
-
-<img src="images/DeviceSetup_1_Config.png" width="600">
-
-- One of two things might happen depending on your setup. You will get this option, where you just need to press submit (and yes, I changed the name of my mat to TTB Gray):
-
-<img src="images/DeviceSetup_2_No_IPaddress.png" width="400"> 
-
-- Or you might need to supply the device's IP address and ESPHome node port (which is defaultly 6053):
-
-<img src="images/DeviceSetup_2_IPaddress.png" width="400">
+<img src="images/USBWeb_13_submit_mat.png" width="400">
 
 - Next pick where in Home Assistant you want to assign the device, click "Finish", and you're done installing your TrampleTek Blue mat!
 
-<img src="images/DeviceSetup_3_Location.png" width="400">
+<img src="images/USBWeb_14_finish_mat.png" width="400">
+
+- Your mat will have a unpleasant name of "TTBlue xxxxxx", if you want to change it I suggest manually going to each UI element in the Home Assistant Overview page and clicking on the gear icon. Alternatively you can "Take Control" of the device and it will automatically rename all the UI elements, but it's a little more complex. Instructions for that are here: [(Optional) Taking Control of the TrampleTek mat in ESPHome](https://ascmats.github.io/esphometakecontrol.html).
+
+<img src="images/USBWeb_21_rename.png" width="400">
 
 ## Next Steps
 If this worked, then you can **SKIP** the Manual Installation section and move directly to [understanding the UI elements of the TrampleTek Blue (Home Assistant version)](https://ascmats.github.io/usingHAui.html).
+
+If you want to take full control of your TrampleTek Blue mat then check out these optional instructions [(Optional) Taking Control of the TrampleTek mat in ESPHome](https://ascmats.github.io/esphometakecontrol.html)
 
 Please join the [ASC Discord server](https://discord.gg/cB9P6NmYJg) if you have questions or comments about this page.
 
