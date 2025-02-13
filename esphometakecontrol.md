@@ -5,6 +5,17 @@ parent: Easy Mode Installation
 nav_order: 1
 ---
 
+# YOU CAN NO LONGER SUCCESSFULLY "TAKE CONTROL" OF ESPHOME DEVICE AS OF MARCH 2024 [more info here](https://github.com/esphome/issues/issues/6605#issuecomment-2631894769).
+
+# I'VE LEFT THE INSTRUCTIONS AS A PLACEHOLDER FOR WHEN/IF THEY FIX THIS IN THE FUTURE.
+
+# If you want to have full control of the device and be able to change the YAML code, you will need to do the [Manual Installation](https://ascmats.github.io/docs/Manual-Installation/).
+
+
+
+# ------------EVERYTHING BELOW THIS LINE IS OUT-DATED (2/13/25)------------------
+
+
 # (Optional) Taking Control of the TrampleTek mat in ESPHome
 
 ## These instructions are optional and only if you want to view device Logs and edit the YAML code directly after doing the [Easy Mode Installation](https://ascmats.github.io/EasyModeInstall.html).
