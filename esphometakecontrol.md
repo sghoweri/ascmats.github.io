@@ -46,7 +46,21 @@ nav_order: 1
 
 <img src="images/USBWeb_20_close_logs.png" width="600"> 
 
-### I have seen an wifi install error that says something like "Error resolving IP address: Error resolving address with mDNS:" when trying to "Take Control". Make sure your ESPHome SECRETS has your wifi information, look for details about setting up your ESPHome SECRETS in the [YAML Code Installation](https://ascmats.github.io/docs/Manual-Installation/yamlcode.html) section of the Manual Installation section.
+### I have seen an wifi install error that says something like "Error resolving IP address: Error resolving address with mDNS:" when trying to "Take Control". Sometimes you just need to press "Retry" in the bottom right of LOGS screen (the screenshot above will have a "Retry" button if the upload fails). If that doesn't work, make sure your ESPHome SECRETS has your wifi information.
+
+- Get to the ESPHome UI view and click on “Secrets” in the top right corner. 
+
+<img src="images/ESPHome_secrets.png" width="600"> 
+
+-	If this file is empty, follow the structure of the information in the image and put in your SSID and password inside the double quotations just like the made up Wi-Fi details below. Click Save.
+
+<img src="images/ESPHome_secrets_yaml.png" width="600">
+
+- Then go to ESPHome UI and click on "EDIT" for the device and try to install again.
+
+<img src="images/ESPHome_mat_edit.png" width="600"> 
+
+<img src="images/ESPHome_mat_yaml_save_upload.png" width="600"> 
 
 ## Next Steps
 **SKIP** the Manual Installation section and move directly to [understanding the UI elements of the TrampleTek Blue (Home Assistant version)](https://ascmats.github.io/usingHAui.html).
