@@ -8,7 +8,9 @@ nav_order: 1
 
 ## These instructions are optional and only if you want to view device Logs and edit the YAML code directly after doing the [Easy Mode Installation](https://ascmats.github.io/EasyModeInstall.html).
 
-## These are step-by-step instructions to "Take Control" of your TrampleTek Blue device in ESPHome.
+## If you "Take Control" of your TrampleTek Blue, you will still get Home Assistant notifications when there is an update. IF YOU UPDATE YOUR FIRMWARE THROUGH HOME ASSISTANT OTA (Over-the-air) after you have "Taken Control" of the device then IT WILL ERASE YOUR INTERNALLY SAVED WI-FI CREDENTIALS. You will need to use Bluetooth, or the device's fallback hotspot, or connect via the [ESPHome web](https://web.esphome.io/), or reload the firmware completely using the [Easy Mode instructions](https://ascmats.github.io/EasyModeInstall.html) to get the device reconnected to your Wi-Fi. Alternatively you can look through the [TrampleTek Blue YAML code](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTek_WebUSB_ESPHome.yaml) to make the updates yourself instead of using Home Assistant's OTA update.
+
+## These are the step-by-step instructions to "Take Control" of your TrampleTek Blue device in ESPHome.
 
 - Open a Home Assistant tab, typically [http://homeassistant.local:8123/](http://homeassistant.local:8123/), and open ESPHome in the Settings -> Add-ons section.
 
@@ -46,7 +48,7 @@ nav_order: 1
 
 <img src="images/USBWeb_20_close_logs.png" width="600"> 
 
-### I have seen an wifi install error that says something like "Error resolving IP address: Error resolving address with mDNS:" when trying to "Take Control". Sometimes you just need to press "Retry" in the bottom right of LOGS screen (the screenshot above will have a "Retry" button if the upload fails). If that doesn't work, make sure your ESPHome SECRETS has your wifi information.
+### I have seen an Wi-Fi install error that says something like "Error resolving IP address: Error resolving address with mDNS:" when trying to "Take Control". Sometimes you just need to press "Retry" in the bottom right of LOGS screen (the screenshot above will have a "Retry" button if the upload fails). If that doesn't work, make sure your ESPHome SECRETS has your Wi-Fi information.
 
 - Get to the ESPHome UI view and click on “Secrets” in the top right corner. 
 
