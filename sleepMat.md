@@ -28,7 +28,7 @@ If not, you're in the wrong place!
 
 ## UI element explanation (as of Firmware update 0.1.3 - 2/20/25)
 
-<img src="images/TTsleep_1_UI.png" width="400">
+<img src="images/TTsleep_1_UI_013.png" width="400">
 
 ### Threshold Convergence Factor
 The sensor's baseline voltage typically drifts up and down everyday, so the "Empty Bed" and "Full Bed" thresholds are adjusted every 8 hours based on the previous 24 hours data to keep the sensor more accurate across days. After estimating the updated thresholds from the last 24hrs' data the "Convergence factor" shrinks the gap between the new thresholds. A "10" reduction factor sets both the new thresholds to the same value, which I don't think would work well 🤔, but everything is being tested because it's a beta test! The slider exists to experiment with what values work best for people!
@@ -62,7 +62,10 @@ This dynamic threshold moves with the "Pressure Voltage" signal. This dynamic th
 ### Pressure Voltage
 This is the signal coming off the mat! All logic and "Mat Sensor" decisions are made from the changes of this value.
 
-## Diagnostic only UI elements (only visible if you go into the 
+### Reset Counter (Beta debug info)
+This helps keep track of how often the device is restarting because of a glitch.
+
+## Diagnostic only UI elements (only visible if you go into the ESPHome device settings)
 
 ### Detection Sensitivity (Higher is more sensitive)
 Increasing this value causes the "matDownThreshold" and "matUpThreshold" to pull in closer to the "Pressure Voltage", which causes the likelihood of triggering on or off of the "Mat Sensor" from the more dynamic "matDownThreshold" and "matUpThreshold" instead of the more static "Empty Bed value" and "Full Bed value".
