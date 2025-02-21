@@ -26,14 +26,12 @@ If not, you're in the wrong place!
 
 - Now follow the [Easy Model Installation](https://ascmats.github.io/EasyModeInstall.html) instructions. You'll know you've installed the TT-Sleep code because you'll see the name of the firmware in the install menus - **"TrampleTek Sleep Firmware"**.
 
-## UI element explanation (as of Firmware update 0.1.0 - 1/21/25)
+## UI element explanation (as of Firmware update 0.1.3 - 2/20/25)
 
 <img src="images/TTsleep_1_UI.png" width="400">
 
-### 24hr dynamic threshold reduction factor
-The sensor's baseline voltage typically drifts up and down everyday, so the "Empty Bed" and "Full Bed" thresholds are adjusted every 24 hours based on the previous day's data to keep the sensor more accurate across weeks. After estimating the updated thresholds from the last 24hrs' data the "reduction factor" shrinks the gap between the new thresholds. A "10" reduction factor sets both the new thresholds to the same value, which I don't think would work well 🤔, but everything is being tested because it's a beta test! The slider exists to experiment with what values work best for people!
-
-One known issue is that the 24hr counter starts from the last reset, so any unexpected resets will delay the daily threshold. This will be fixed in the next firmware update.
+### Threshold Convergence Factor
+The sensor's baseline voltage typically drifts up and down everyday, so the "Empty Bed" and "Full Bed" thresholds are adjusted every 8 hours based on the previous 24 hours data to keep the sensor more accurate across days. After estimating the updated thresholds from the last 24hrs' data the "Convergence factor" shrinks the gap between the new thresholds. A "10" reduction factor sets both the new thresholds to the same value, which I don't think would work well 🤔, but everything is being tested because it's a beta test! The slider exists to experiment with what values work best for people!
 
 ### Calibration (turn on, lay on bed for at least 30s, get out of bed, turn off)
 This helps set the thresholds for your bed the first time you use the sensor, or as a reset if the voltage drift is so far off that the bed sensor is no longer accurate at all.
@@ -41,13 +39,10 @@ This helps set the thresholds for your bed the first time you use the sensor, or
 ### Empty Bed value
 For this firmware version, this is the only trigger for turning off the "Mat Sensor" binary sensor. The "Pressure Voltage" must be above the "Empty Bed Value" for the full duration of the "Transition to Off Delay" value before the "Mat Sensor" is turned *off*.
 
-This value is fully adjustable to tweak the thresholds manually.
+This value is fully adjustable to tweak the thresholds manually if needed, however the automatic threshold will take over after the next 8 hour period.
 
 ### Full Bed value
 For this firmware version, this is one of the triggers for turning on the "Mat Sensor" binary sensor. If the "Pressure Voltage" is below the "Full Bed Value" for the full duration of the "Transition to On Delay" value before the "Mat Sensor" is turned *on*.
-
-### Sensitivity (Higher is more sensitive to motion)
-Increasing this value causes the "matDownThreshold" and "matUpThreshold" to pull in closer to the "Pressure Voltage", which causes the likelihood of triggering on or off of the "Mat Sensor" from the more dynamic "matDownThreshold" and "matUpThreshold" instead of the more static "Empty Bed value" and "Full Bed value".
 
 ### Transition to Off Delay
 This is the amount of time the "Pressure Voltage" must be above the "Empty Threshold" before triggering an "Off". I suggest this value be at least 5-10 seconds, as big motions in the night often cause really big 'Pressure Voltage' spikes upwards, and this helps to prevent 'Off' triggers from brief nighttime movements. 
@@ -66,6 +61,19 @@ This dynamic threshold moves with the "Pressure Voltage" signal. This dynamic th
 
 ### Pressure Voltage
 This is the signal coming off the mat! All logic and "Mat Sensor" decisions are made from the changes of this value.
+
+## Diagnostic only UI elements (only visible if you go into the 
+
+### Detection Sensitivity (Higher is more sensitive)
+Increasing this value causes the "matDownThreshold" and "matUpThreshold" to pull in closer to the "Pressure Voltage", which causes the likelihood of triggering on or off of the "Mat Sensor" from the more dynamic "matDownThreshold" and "matUpThreshold" instead of the more static "Empty Bed value" and "Full Bed value".
+
+This UI element was mostly for debugging and will likely be removed in the future.
+
+### Internal Temperature
+The temperature of the CPU.
+
+### WiFi Signal Strength
+WiFi connection strength to your device, larger than -60dB is not good.
 
 ## Next Steps
 If this worked, great! If not, ask in the Discord for help or email me directly at Raymond@asc.com.
