@@ -21,12 +21,9 @@ nav_order: 2
 
 <img src="../../images/ESPHome_mat_yaml.png" width="600"> 
 
-## VERY IMPORTANT, MAT MAY NOT WORK WITHOUT DOING THIS STEP CORRECTLY
-- First we need to add this line in the Wi-Fi section: “output_power: 8.5dB” (details about why [here](https://community.home-assistant.io/t/unable-to-connect-to-wifi-auth-expired-and-association-expired/678570/2)). We have to do this because there is a possible issue with the board's Wi-Fi and this helps to fix that issue. Click save after adding the “output_power: 8.5dB” line.
+## Go to the [TrampleTek Blue YAML](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTek_ESPHome.yaml) and follow the steps to add the necessary front matter to your YAML file.
  
-<img src="../../images/ESPHome_mat_yaml_wifi_power.png" width="600"> 
-
-- Next you need to put in your Wi-Fi credentials. You can either put your details directly into this file (you must have double quotations around the SSID and the password) or use the secrets.yaml file (optional steps below).
+- You need to make sure the mat has your your Wi-Fi credentials. You can either put your details directly into this file (you must have double quotations around the SSID and the password) or use the secrets.yaml file (optional steps below).
 
 <img src="../../images/ESPHome_mat_yaml_wifi_secrets.png" width="600"> 
 
@@ -38,17 +35,7 @@ nav_order: 2
 
 <img src="../../images/ESPHome_secrets_yaml.png" width="600"> 
 
-- We need to alter one more place in the code, in the **"<ins>esphome:" section</ins>**.
-
- <img src="../../images/ESPHome_mat_yaml_onboot.png" width="600"> 
- 
-I've found ESPHome's internal restoring of variables to be flaky, this will help your mat keep your calibration settings after an unexpected on/off event. You can copy/paste these lines from the main TrampleTek Blue (Home Assistant version) file [here](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTek_ESPHome.yaml), make sure to the match the indent amount for each line!
-
--	Starting at the line **"<ins>globals:</ins>"**, copy the code from main TrampleTek Blue (Home Assistant version) file [here](https://github.com/ASCKing9/TrampleTek-Blue-code/blob/main/TrampleTek_ESPHome.yaml), scroll down to the bottom of your YAML file and paste in the code. 
-
-<img src="../../images/ESPHome_mat_yaml_paste_below.png" width="600"> 
-
--	Save and upload:
+-	Once you have the TrampleTek Blue YAML code copied in, save and upload:
 
 <img src="../../images/ESPHome_mat_yaml_save_upload.png" width="600"> 
  
