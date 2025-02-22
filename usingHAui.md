@@ -10,7 +10,7 @@ nav_order: 8
 
 <img src="images/HA_UI_overview.png" width="600">
 
-The UI is seperated into four visible components **"Calibration"**, **"Dropdown Sensitivity"**, **"Sensitivity"**, and **"Mat Sensor"** and one secret component (not in this image) for power users **"Pressure voltage"**. 
+### The UI has four visible entities **"Calibration"**, **"Dropdown Sensitivity"**, **"Sensitivity"**, and **"Mat Sensor"**.
 
 Your UI elements may show up in a different order, and I will explain them from simpliest to most complex. Note: I will use "pressure" and "weight" interchangeably in this section, they are technically different but for ease of examples I use them interchangeably.
 
@@ -18,7 +18,7 @@ Your UI elements may show up in a different order, and I will explain them from 
 
 <img src="images/HA_UI_binary.png" width="600">
 
-This component is as simple as it gets, it just shows when the mat has been triggered to on or off. This is most likely the entity you will use to trigger your HA automations.
+This component is as simple as it gets, it just shows when the mat has been triggered on or off. This is most likely the entity you will use to trigger your HA automations.
 
 ### Dropdown Sensitivity
 
@@ -70,22 +70,34 @@ If you're not sure what the Sensitivity should be for your use case use, use the
 
 Calibration is not perfect! You may want to move the Sensitivity slider around a little bit to fine tune when the mat triggers on/off.
 
-## Advanced UI and details
+## Diagnostic UI entities
+
+<img src="images/HA_UI_overview_diag.png" width="400">
+
+### There are five diagnostic entities **"Internal Temperature"**, **"Pressure Voltage"**, **"Reset Counter"**, **"Voltage measurement update rate (0 is off)"**, and **"WiFi Signal Strength"**.
+From simplest to most complex:
+
+### Internal Temperature
+The internal temperature of the CPU, there to check how hot the device is getting!
+
+### WiFi Signal Strenth
+The WiFi signal strength for your device. If it's always larger than -60dB you might want to consider moving it closer to your WiFi router, or getting a WiFi extender.
+
+### Reset Counter
+This counts how many times the mat has restarted, it's mostly for debugging reasons. It counts up to 5 and then restarts the counter to 0.
+
+### Voltage measurement update rate (0 is off)
+You can turn on the voltage output from the sensor by increasing this value above 0. This will enable you to view the "**Pressure Voltage**" entity. The fastest rate is 1 (updates every 1 second) and the slowest is 300 (updates every 300 seconds, i.e. 5 mins).
+
 ### Pressure voltage
-
-<img src="images/HA_UI_Voltage.png" width="600">
-
-To get to the Pressure voltage UI you have to un-comment this section in the YAML code and install the change onto the mat.
-
-<img src="images/HA_UI_UncommentMe.png" width="600">
 
 With this UI entity you can watch the voltage of the mat change as weight is put on or taken off the mat. 
 
 <img src="images/HA_UI_VoltagePlot.png" width="600">
 
-This is an example of the voltage plot as I stand on and off the mat with 1 and then 2 feet. This UI element is a fun way to explore the mat and trigger automations directly from voltage changes.
+This is an example of the voltage plot as I stand on and off the mat with 1 and then 2 feet. This UI element is a fun way to explore the mat and you can even trigger automations directly from voltage changes.
 
-### Extra: Technical notes
+## Extra: Technical notes
 - The Sensitivity value is the voltage change required to trigger "on" for the mat. The "off" trigger is a percentage of this value. This is because the mat can recover slowly from heavy or large objects and requiring less of a voltage change when weight comes off helps increase the responsiveness of the mat. You can get rid of this by removing the variable "scaleThreshold" in the YAML code. Look for this line **matUpThreshold = matDataAvg + id(step_event_threshold) * scaleThreshold; // Recovery can be slower, reduces the threshold requirement**
 
 - The voltage change for the same weight can be different depending on how much weight is already on the mat (e.g. the first 10lbs on the mat might change the voltage by 0.5 V but another 10lbs may only change the mat voltage by an additional 0.1 V). The mats are tuned to be very sensitive to low weights, <20 lbs), but struggle to tell the different between 100 lbs and 1000 lbs. Below is a sweet MS Paint graphic to explain why higher weights sometimes need a *lower* sensitivity value:
