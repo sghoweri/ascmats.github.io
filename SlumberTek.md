@@ -1,15 +1,15 @@
 ---
 layout: default
-title: (BETA) Sleep mat code
+title: (BETA) SlumberTek firmware 
 nav_order: 12
 ---
 
-# Are you a tester for TrampleTek Sleep (name still TBD)?
+# Are you part of the SlumberTek early access open beta?
 If not, you're in the wrong place!
 
-## If you would like to join the beta test please join the ASC Discord ([invite link](https://discord.gg/cB9P6NmYJg)) and email Raymond@asc.com
+## If you would like to join the SlumberTek beta please join the ASC Discord ([invite link](https://discord.gg/cB9P6NmYJg)) or email Raymond@asc.com
 
-## These are the step-by-step instructions to install the TT-Sleep Beta algorithm:
+## These are the step-by-step instructions to install the SlumberTek Beta firmware:
 
 - Open a browser tab with the [Easy Model Installation](https://ascmats.github.io/EasyModeInstall.html) because you'll be using the "connect" button below and then following the Easy Mode Installation right at the "The below pop-up" step.
 
