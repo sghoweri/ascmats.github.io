@@ -3,6 +3,22 @@ layout: default
 title: Easy Mode Installation
 nav_order: 3
 ---
+<style>
+esp-web-install-button button {
+    background-color: #5A2D8A !important;
+    color: white !important;
+    border-radius: 10px !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+esp-web-install-button button:hover {
+    background-color: #7A3FA8 !important;
+}
+</style>
+
 
 # Loading ESPHome on the TrampleTek Blue mat using [ESP Web tools](https://esphome.github.io/esp-web-tools/)
 
@@ -16,8 +32,7 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
 - ESP Web tools only work with Google Chrome or Microsoft Edge. Open another window of your browser, as it can be hard to read the instructions and use the ESP Web tool (it covers the webpage).
 
 - Click the button labeled "TrampleTek Blue Firmware install button" right below this line to start the ESP Web tool:
-<esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json" install-supported=""
-        style="--esp-tools-button-color: #5A2D8A; --esp-tools-button-text-color: white;">
+<esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json" install-supported="">
         <button slot="activate">TrampleTek Blue Firmware install button</button>
         <i slot="unsupported">
           The option is not available because your browser does not support Web
