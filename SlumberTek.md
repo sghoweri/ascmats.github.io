@@ -1,17 +1,28 @@
 ---
 layout: default
-title: (BETA) SlumberTek firmware 
+title: SlumberTek Firmware 
 nav_order: 12
 ---
+<style>
+esp-web-install-button button {
+    color: var(--esp-tools-button-text-color, #fff);
+    background-color: var(--esp-tools-button-color, #5A2D8A);
+    border-radius: var(--esp-tools-button-border-radius, 10px);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+esp-web-install-button button:hover {
+    background-color: var(--esp-tools-button-color, #7A3FA8);
+}
+</style>
 
-# Are you part of the SlumberTek early access open beta?
-If not, you're in the wrong place!
+## SlumberTek is new product, please join the ASC Discord ([invite link](https://discord.gg/cB9P6NmYJg)) for tips and troubleshooting!
 
-## If you would like to join the SlumberTek beta please join the ASC Discord ([invite link](https://discord.gg/cB9P6NmYJg)) or email Raymond@asc.com
+## These are the step-by-step instructions to install the SlumberTek firmware:
 
-## These are the step-by-step instructions to install the SlumberTek Beta firmware:
-
-- Open a browser tab with the [Easy Model Installation](https://ascmats.github.io/EasyModeInstall.html) because you'll be using the "connect" button below and then following the Easy Mode Installation right at the "The below pop-up" step.
+- Open a browser tab with the [Easy Model Installation](https://ascmats.github.io/EasyModeInstall.html) because you'll be using the "SlumberTek Firmware install button" button below and then following the Easy Mode Installation right at the "The below pop-up" step.
 
 - Note that ESP Web tools only work with Google Chrome or Microsoft Edge.
 
@@ -25,7 +36,7 @@ If not, you're in the wrong place!
         </i>
 </esp-web-install-button>
 
-- Now follow the [Easy Model Installation](https://ascmats.github.io/EasyModeInstall.html) instructions. You'll know you've installed the TT-Sleep code because you'll see the name of the firmware in the install menus - **"TrampleTek Sleep Firmware"**.
+- Now follow the [Easy Model Installation](https://ascmats.github.io/EasyModeInstall.html) instructions. You'll know you've installed the SlumberTek code because you'll see the name of the firmware in the install menus - **"SlumberTek Firmware"**.
 
 ## UI element explanation (as of Firmware update 0.1.3 - 2/20/25)
 
