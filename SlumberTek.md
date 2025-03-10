@@ -15,8 +15,9 @@ If not, you're in the wrong place!
 
 - Note that ESP Web tools only work with Google Chrome or Microsoft Edge.
 
-- Click the button labeled "Connect" right below this line to start the ESP Web tool:
+- Click the button labeled "SlumberTek Firmware install button" right below this line to start the ESP Web tool:
 <esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/refs/heads/main/TrampleTek_Debug/SleepMatBeta/TrampleTek_Sleep.json" install-supported="">
+        <button slot="activate">SlumberTek Firmware install button</button>
         <i slot="unsupported">
           The option is not available because your browser does not support Web
           Serial. Open this page in Google Chrome or Microsoft Edge instead<span class="not-supported-i hidden">
