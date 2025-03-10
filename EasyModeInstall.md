@@ -8,10 +8,13 @@ esp-web-install-button button {
     color: var(--esp-tools-button-text-color, #fff);
     background-color: var(--esp-tools-button-color, #05a2d8a);
     border-radius: var(--esp-tools-button-border-radius, 10px);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 esp-web-install-button button:hover {
-    color: var(--esp-tools-button-text-color, #000);
-    background-color: var(--esp-tools-button-color, #fff);
+    background-color: var(--esp-tools-button-color, #7A3FA8);
 }
 </style>
 
@@ -37,7 +40,7 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
         </i>
 </esp-web-install-button>
 
-1
+12
 - The below pop-up will appear asking to select the COM port for your mat. You can plug and un-plug your mat's USB cable into the computer you're using to see which COM port appears and disappears, pick that option and press "connect." (If you don't see anything showing up when you plug your USB cable into the computer you may have a USB driver issue, if you hit cancel a pop-up will give you some info on hope to install the right USB drivers).
 
 <img src="images/USBWeb_1_USBdialogConnect.png" width="400"> 
