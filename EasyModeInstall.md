@@ -40,7 +40,6 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
         </i>
 </esp-web-install-button>
 
-123
 - The below pop-up will appear asking to select the COM port for your mat. You can plug and un-plug your mat's USB cable into the computer you're using to see which COM port appears and disappears, pick that option and press "connect." (If you don't see anything showing up when you plug your USB cable into the computer you may have a USB driver issue, if you hit cancel a pop-up will give you some info on hope to install the right USB drivers).
 
 <img src="images/USBWeb_1_USBdialogConnect.png" width="400"> 
