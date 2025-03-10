@@ -7,6 +7,11 @@ nav_order: 3
 esp-web-install-button button {
     color: var(--esp-tools-button-text-color, #fff);
     background-color: var(--esp-tools-button-color, #03a9f4);
+    border-radius: var(--esp-tools-button-border-radius, 10px);
+}
+    
+esp-web-install-button button:hover {
+    background-color: var(--esp-tools-button-color, #fff);
 }
 </style>
 
