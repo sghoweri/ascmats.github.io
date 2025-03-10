@@ -15,8 +15,9 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
 
 - ESP Web tools only work with Google Chrome or Microsoft Edge. Open another window of your browser, as it can be hard to read the instructions and use the ESP Web tool (it covers the webpage).
 
-- Click the button labeled "Connect" right below this line to start the ESP Web tool:
+- Click the button labeled "TrampleTek Blue Firmware install button" right below this line to start the ESP Web tool:
 <esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json" install-supported="">
+        <button slot="activate">TrampleTek Blue Firmware install button</button>
         <i slot="unsupported">
           The option is not available because your browser does not support Web
           Serial. Open this page in Google Chrome or Microsoft Edge instead<span class="not-supported-i hidden">
