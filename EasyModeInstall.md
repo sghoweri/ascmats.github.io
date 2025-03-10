@@ -6,15 +6,14 @@ nav_order: 3
 <style>
 esp-web-install-button button {
     color: var(--esp-tools-button-text-color, #fff);
-    background-color: var(--esp-tools-button-color, #03a9f4);
+    background-color: var(--esp-tools-button-color, #05a2d8a);
     border-radius: var(--esp-tools-button-border-radius, 10px);
 }
-    
 esp-web-install-button button:hover {
+    color: var(--esp-tools-button-text-color, #000);
     background-color: var(--esp-tools-button-color, #fff);
 }
 </style>
-
 
 # Loading ESPHome on the TrampleTek Blue mat using [ESP Web tools](https://esphome.github.io/esp-web-tools/)
 
@@ -28,6 +27,7 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
 - ESP Web tools only work with Google Chrome or Microsoft Edge. Open another window of your browser, as it can be hard to read the instructions and use the ESP Web tool (it covers the webpage).
 
 - Click the button labeled "TrampleTek Blue Firmware install button" right below this line to start the ESP Web tool:
+  
 <esp-web-install-button manifest="https://raw.githubusercontent.com/ASCKing9/TrampleTek-Blue-code/main/TrampleTekBlue.json" install-supported="">
         <button slot="activate">TrampleTek Blue Firmware install button</button>
         <i slot="unsupported">
@@ -37,6 +37,7 @@ If you are a Home Assistant power-user I suggest jumping to [Loading ESPHome on 
         </i>
 </esp-web-install-button>
 
+1
 - The below pop-up will appear asking to select the COM port for your mat. You can plug and un-plug your mat's USB cable into the computer you're using to see which COM port appears and disappears, pick that option and press "connect." (If you don't see anything showing up when you plug your USB cable into the computer you may have a USB driver issue, if you hit cancel a pop-up will give you some info on hope to install the right USB drivers).
 
 <img src="images/USBWeb_1_USBdialogConnect.png" width="400"> 
